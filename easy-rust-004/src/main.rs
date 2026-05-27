@@ -1,3 +1,5 @@
+// Type inference
+// https://dhghomon.github.io/easy_rust/Chapter_8.html
 fn main() {
   let _small_number1: u8 = 10;
   let _small_number2 = 10u8; // 10u8 = 10 of type u8
