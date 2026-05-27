@@ -1,3 +1,6 @@
+// Comments
+// https://dhghomon.github.io/easy_rust/Chapter_6.html
+
 /// for documentation purposes only
 fn main() {
   // Rust programs start with fn main()
