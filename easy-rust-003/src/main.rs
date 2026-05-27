@@ -1,4 +1,5 @@
-/// main() is where Rust programs start to run.
+// Types
+// https://dhghomon.github.io/easy_rust/Chapter_7.html
 fn main() {
   let _first_letter = 'A';
   let _space = ' '; // a space inside ' ' is also a char
