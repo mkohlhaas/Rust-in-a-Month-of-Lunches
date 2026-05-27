@@ -1,5 +1,7 @@
 // Types
 // https://dhghomon.github.io/easy_rust/Chapter_7.html
+// https://www.youtube.com/watch?v=OxTPU5UGMhs&list=PLfllocyHVgsRwLkTAhG0E-2QxCf-ozBkk
+
 fn main() {
   let _first_letter = 'A';
   let _space = ' '; // a space inside ' ' is also a char

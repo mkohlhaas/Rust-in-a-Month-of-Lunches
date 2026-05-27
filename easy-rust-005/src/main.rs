@@ -1,5 +1,7 @@
 // Printing 'hello, world!'
 // https://dhghomon.github.io/easy_rust/Chapter_9.html
+// https://www.youtube.com/watch?v=yYlPHRl2geQ&list=PLfllocyHVgsRwLkTAhG0E-2QxCf-ozBkk
+// https://www.youtube.com/watch?v=DTCSfBJJZb8&list=PLfllocyHVgsRwLkTAhG0E-2QxCf-ozBkk
 
 fn number1() -> i64 {
   8

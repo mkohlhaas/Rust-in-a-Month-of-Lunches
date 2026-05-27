@@ -1,5 +1,6 @@
 // The Stack, the Heap, and Pointers
 // https://dhghomon.github.io/easy_rust/Chapter_12.html
+// https://www.youtube.com/watch?v=zHt8QkqAJ-o&list=PLfllocyHVgsRwLkTAhG0E-2QxCf-ozBkk
 
 fn main() {
   let my_number = 42;

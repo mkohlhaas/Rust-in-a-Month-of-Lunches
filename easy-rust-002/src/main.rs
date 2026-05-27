@@ -1,5 +1,6 @@
 // Comments
 // https://dhghomon.github.io/easy_rust/Chapter_6.html
+// https://www.youtube.com/watch?v=fJ7jBZG_Rpo&list=PLfllocyHVgsRwLkTAhG0E-2QxCf-ozBkk
 
 /// for documentation purposes only
 fn main() {

@@ -1,5 +1,7 @@
 // Display and debug
 // https://dhghomon.github.io/easy_rust/Chapter_10.html
+// https://www.youtube.com/watch?v=jd3pC248c0o&list=PLfllocyHVgsRwLkTAhG0E-2QxCf-ozBkk
+
 fn main() {
   println!("Hello, world!");
 

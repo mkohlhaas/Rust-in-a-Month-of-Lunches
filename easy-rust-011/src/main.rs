@@ -1,5 +1,7 @@
 // More about printing
 // https://dhghomon.github.io/easy_rust/Chapter_13.html
+// https://www.youtube.com/watch?v=BdU9JphfBaI&list=PLfllocyHVgsRwLkTAhG0E-2QxCf-ozBkk
+// https://www.youtube.com/watch?v=ycjZtvqyRHc&list=PLfllocyHVgsRwLkTAhG0E-2QxCf-ozBkk
 
 fn main() {
   print!("\t Start with a tab\nand move to a new line");
@@ -136,7 +138,7 @@ and it will print just fine."
 
   println!();
 
-  // assignments in println!
+  // naming indexes
   println!(
     "{city1} is in {country} and {city2} is also in {country}, but {city3} is not in {country}.",
     city1 = "Seoul",
@@ -148,8 +150,14 @@ and it will print just fine."
   println!();
 
   // more complex stuff
+  // https://doc.rust-lang.org/std/fmt/
+  // {variable:padding alignment minimum.maximum}
+
   let letter = "a";
   println!("{:ㅎ^11}", letter);
+
+  println!();
+
   let title = "TODAY'S NEWS";
   println!("{:-^30}", title); // no variable name, pad with -, put in centre, 30 characters long
   let bar = "|";

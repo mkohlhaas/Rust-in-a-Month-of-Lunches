@@ -1,5 +1,7 @@
 // Mutability (changing) & Shadowing
 // https://dhghomon.github.io/easy_rust/Chapter_11.html
+// https://www.youtube.com/watch?v=Nyyd6qn7dZY&list=PLfllocyHVgsRwLkTAhG0E-2QxCf-ozBkk
+// https://www.youtube.com/watch?v=InULHyRGw7g&list=PLfllocyHVgsRwLkTAhG0E-2QxCf-ozBkk
 
 fn times_two(number: i32) -> i32 {
   number * 2
