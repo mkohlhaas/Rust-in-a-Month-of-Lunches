@@ -1,8 +1,10 @@
-// External crates
+// External crates & Function Pointers (not in the book)
 // https://dhghomon.github.io/easy_rust/Chapter_59.html
 // https://www.youtube.com/watch?v=vVzAyS99-og&list=PLfllocyHVgsRwLkTAhG0E-2QxCf-ozBkk
 // https://www.youtube.com/watch?v=25bFCysCPOg&list=PLfllocyHVgsRwLkTAhG0E-2QxCf-ozBkk
 // https://www.youtube.com/watch?v=MvVRLi6WsJQ&list=PLfllocyHVgsRwLkTAhG0E-2QxCf-ozBkk
+// https://www.youtube.com/watch?v=HduA3uaF_Ac&list=PLfllocyHVgsRwLkTAhG0E-2QxCf-ozBkk
+// https://www.youtube.com/watch?v=1sgBm7Z0CW8&list=PLfllocyHVgsRwLkTAhG0E-2QxCf-ozBkk
 
 use chrono::prelude::*;
 use rand::*;
