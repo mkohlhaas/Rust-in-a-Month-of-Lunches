@@ -3,7 +3,6 @@
 // https://www.youtube.com/watch?v=JkJxRn1OnWA&list=PLfllocyHVgsRwLkTAhG0E-2QxCf-ozBkk
 // https://www.youtube.com/watch?v=afGsq8rV41k&list=PLfllocyHVgsRwLkTAhG0E-2QxCf-ozBkk
 // https://www.youtube.com/watch?v=IO0l89Hz4Is&list=PLfllocyHVgsRwLkTAhG0E-2QxCf-ozBkk
-// https://www.youtube.com/watch?v=kLBmgtMyLf4&list=PLfllocyHVgsRwLkTAhG0E-2QxCf-ozBkk
 
 use std::env::args;
 use std::io;
