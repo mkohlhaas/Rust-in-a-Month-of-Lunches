@@ -296,7 +296,7 @@ fn print_it2<T: AsRef<str> + Display>(input: T) {
   println!("{}", input)
 }
 
-// Use `where` syntax when there are to many constraints.
+// Use `where` syntax when there are too many constraints.
 fn print_it3<T>(input: T)
 where
   T: AsRef<str> + Debug + Display,
