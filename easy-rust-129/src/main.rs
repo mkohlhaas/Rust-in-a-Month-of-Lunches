@@ -256,12 +256,13 @@ fn main() {
   println!();
 
   {
+    println!("=====================================");
     let vec_of_u8s: Vec<u8> = vec![0, 1, 42];
 
     for n in vec_of_u8s {
       match returns_errors1(n) {
         Ok(msg) => println!("{}", msg),
-        Err(msg) => println!("{}", msg),
+        Err(err) => println!("{}", err),
       }
     }
   }
