@@ -4,3 +4,5 @@
 - [Github:      Easy Rust](https://github.com/Dhghomon/easy_rust)
 - [Youtube:     Rust in a Month of Lunches](https://www.youtube.com/playlist?list=PLfllocyHVgsRwLkTAhG0E-2QxCf-ozBkk)
 - [Manning:     Learn Rust in a Month of Lunches](https://www.manning.com/books/learn-rust-in-a-month-of-lunches)
+
+- See `easy-rust-129/` for a discussion of Traits, Generics, impl Trait, Box<impl Trait>, Box<dyn Trait>, …
