@@ -54,8 +54,6 @@ impl List {
 //   }
 // }
 
-trait JustATrait {}
-
 enum EnumOfNumbers {
   I8(i8),
   AnotherI8(i8),
@@ -86,6 +84,7 @@ struct ArrayAndI8 {
   in_u8: u8,
 }
 
+trait JustATrait {}
 impl JustATrait for EnumOfNumbers {}
 impl JustATrait for StructOfNumbers {}
 impl JustATrait for EnumOfOtherTypes {}
@@ -115,7 +114,7 @@ fn returns_just_a_trait1() -> impl JustATrait {
 //   }
 // }
 
-fn returns_just_a_trait2() -> Box<(impl JustATrait)> {
+fn returns_just_a_trait2() -> Box<impl JustATrait> {
   println!("Box impl");
 
   if true {
@@ -126,7 +125,7 @@ fn returns_just_a_trait2() -> Box<(impl JustATrait)> {
   }
 }
 
-fn returns_just_a_trait3() -> Box<(dyn JustATrait)> {
+fn returns_just_a_trait3() -> Box<dyn JustATrait> {
   println!("dynamic");
 
   if true {
